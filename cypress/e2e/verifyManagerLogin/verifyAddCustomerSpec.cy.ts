@@ -20,8 +20,8 @@ describe('Manager Can add Accounts', function()  {
     context('Manager Customer Addition', function()  {
         it('Verify add customer after Bank ManagerLogin', function()  {
         manager.addCustomer(this.data.firstName, this.data.lastName, this.data.postCode)
-        manager.verifyCustomerAddition(this.data.firstName, this.data.lastName, this.data.postCode)
-        
+        manager.verifyCustomerAddition(this.data.firstName, this.data.lastName, this.data.postCode)    
+        cy.log("Is dollar: "+this.data.account.dollar)   
         })
     })
 })

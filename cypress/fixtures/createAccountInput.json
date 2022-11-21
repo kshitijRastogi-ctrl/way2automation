@@ -1,5 +1,11 @@
 {
   "firstName": "John",
   "lastName":"Kelly",
-  "postCode" : "A12 9E3"
+  "postCode" : "A12 9E3",
+  "account":
+  {
+    "dollar":true,
+    "pound":true,
+    "rupee":true
+  }
 }
